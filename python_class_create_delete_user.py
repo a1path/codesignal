@@ -53,6 +53,7 @@ for query in queries:
 print(result)  # ['alex1', 'alex2', 'alex1', 'john1']
 
 # result:
+# {'alex': {1}} {'alex': []} {'alex': 2}
 # {'alex': {1, 2}} {'alex': []} {'alex': 3}
 # {'alex': {2}} {'alex': [1]} {'alex': 3}
 # {'alex': {1, 2}} {'alex': []} {'alex': 3}
